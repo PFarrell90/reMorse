@@ -169,7 +169,7 @@ MorseArray.append(Index35)
 #Test1.Name = 0 #assigning value to object 1 
 #Test1.MorseValue = 1 #assigning value to object 1 
     
-#Test2.Name = 3 #assigning value to object 2 
+Test2.Name = 3 #assigning value to object 2 
 ##Test2.MorseValue = 4 #assigning value to object 2
 
 
@@ -177,10 +177,10 @@ MorseArray.append(Index35)
 #print ((MorseArray[0].Name),(MorseArray[0].MorseValue))
 #print ((MorseArray[1].Name),(MorseArray[1].MorseValue))
 
-#z = 0
-#while z < len(MorseArray):
-#    print((MorseArray[z].Name),(MorseArray[z].MorseValue))
-#    z += 1
+z = 0
+while z < len(MorseArray):
+    print((MorseArray[z].Name),(MorseArray[z].MorseValue))
+    z += 1
 
 #i = 0
 #j = (range(37))

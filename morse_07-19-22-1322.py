@@ -6,6 +6,22 @@ class Char():
 
 MorseArray = []
 
+Test1 = Char() #this is an object
+Test2 = Char() #this is another object
+        
+Test1.Name = 0 #assigning value to object 1 
+Test1.MorseValue = 1 #assigning value to object 1 
+    
+Test2.Name = 3 #assigning value to object 2 
+Test2.MorseValue = 4 #assigning value to object 2
+
+MorseArray.append(Test1)
+MorseArray.append(Test2)
+
+#Print index 0's Name and MorseValue
+print ((MorseArray[0].Name),(MorseArray[0].MorseValue))
+print ((MorseArray[1].Name),(MorseArray[1].MorseValue))
+
 #Character objects (36 total, alpha-numeric: a-z, 0-9)
 Index0 = Char()
 Index1 = Char()
@@ -121,74 +137,3 @@ Index32.MorseValue = "-..."
 Index33.MorseValue = "--.."
 Index34.MorseValue = "---."
 Index35.MorseValue = "----"
-
-
-#This is horrendously inelegant, but sinking hours into the deep tomes of how Python interprets a "range" "sequence" just isn't worth it for a deliverable
-#See: https://docs.python.org/3/library/stdtypes.html#typesseq-range and https://treyhunner.com/2018/02/python-range-is-not-an-iterator/ 
-MorseArray.append(Index0)
-MorseArray.append(Index1)
-MorseArray.append(Index2)
-MorseArray.append(Index3)
-MorseArray.append(Index4)
-MorseArray.append(Index5)
-MorseArray.append(Index6)
-MorseArray.append(Index7)
-MorseArray.append(Index8)
-MorseArray.append(Index9)
-MorseArray.append(Index10)
-MorseArray.append(Index11)
-MorseArray.append(Index12)
-MorseArray.append(Index13)
-MorseArray.append(Index14)
-MorseArray.append(Index15)
-MorseArray.append(Index16)
-MorseArray.append(Index17)
-MorseArray.append(Index18)
-MorseArray.append(Index19)
-MorseArray.append(Index20)
-MorseArray.append(Index21)
-MorseArray.append(Index22)
-MorseArray.append(Index23)
-MorseArray.append(Index24)
-MorseArray.append(Index25)
-MorseArray.append(Index26)
-MorseArray.append(Index27)
-MorseArray.append(Index28)
-MorseArray.append(Index29)
-MorseArray.append(Index30)
-MorseArray.append(Index31)
-MorseArray.append(Index32)
-MorseArray.append(Index33)
-MorseArray.append(Index34)
-MorseArray.append(Index35)
-
-
-#Test1 = Char() #this is an object
-#Test2 = Char() #this is another object
-        
-#Test1.Name = 0 #assigning value to object 1 
-#Test1.MorseValue = 1 #assigning value to object 1 
-    
-#Test2.Name = 3 #assigning value to object 2 
-##Test2.MorseValue = 4 #assigning value to object 2
-
-
-#Print index 0's Name and MorseValue
-#print ((MorseArray[0].Name),(MorseArray[0].MorseValue))
-#print ((MorseArray[1].Name),(MorseArray[1].MorseValue))
-
-#z = 0
-#while z < len(MorseArray):
-#    print((MorseArray[z].Name),(MorseArray[z].MorseValue))
-#    z += 1
-
-#i = 0
-#j = (range(37))
-
-#list(j)
-
-#while i < len(j):
-#    print (range[i])
-#    i += 1
-
-#MorseArray.append(Index[range(35)])
